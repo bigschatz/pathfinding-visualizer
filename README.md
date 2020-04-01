@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Info
+
+This project is based on Clément Mihailescu's [Pathfinding Visualizer](https://github.com/clementmihailescu/Pathfinding-Visualizer).  Please visit his [YouTube channel](https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g) and subscribe.
+His videos are fun to watch and very informative and educational.  The guys deserves mad props!
+
 ## Available Scripts
 
 In the project directory, you can run:
