@@ -1,0 +1,73 @@
+.grid {
+  margin: 30px 0 0;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 2px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 20px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+button:hover {
+  background-color: rgba(255, 159, 50, 0.904);
+  color: rgb(44, 44, 44);
+  transition-duration: 0.2s;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+#algoPicker {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  height: 39px;
+  width: 180px;
+}
+
+#algoPicker:hover {
+  background-color: rgba(255, 159, 50, 0.904);
+  color: rgb(44, 44, 44);
+  transition-duration: 0.2s;
+}
