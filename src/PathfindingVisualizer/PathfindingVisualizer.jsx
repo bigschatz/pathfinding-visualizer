@@ -7,7 +7,7 @@ import './PathfindingVisualizer.css'
 const START_NODE_ROW = randomizeNodePosition(5, 15)
 const START_NODE_COL = randomizeNodePosition(1, 20)
 const FINISH_NODE_ROW = randomizeNodePosition(5, 15)
-const FINISH_NODE_COL = randomizeNodePosition(30, 50)
+const FINISH_NODE_COL = randomizeNodePosition(30, 49)
 
 export default class PathfindingVisualizer extends Component {
   constructor() {
